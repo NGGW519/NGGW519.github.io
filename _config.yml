@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My website
+title: NGGW519's Tech Journey
 
 # Your name to show in the footer
-author: Some Person
+author: NGGW519
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,14 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  Projects:
+    - "7th KDT Hackathon": "https://github.com/NGGW519/7th-kDT-HACKATHON"
+    - "SKN13 Final Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-FINAL-1TEAM"
+    - "SKN13 4th Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-4th-1TEAM"
+    - "SKN13 3rd Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-3rd-1TEAM"
+    - "SKN13 2nd Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-2nd-7Team"
+    - "SKN13 1st Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-1st-2Team"
+  Retrospective: "retrospective"
 
 ################
 # --- Logo --- #
@@ -50,14 +54,8 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: "@daattali"
-  whatsapp: 15551212
+  github: NGGW519
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -86,7 +84,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: AI Developer & Backend Engineer sharing insights on cutting-edge technology and innovative solutions
 
 ###########################
 # --- General options --- #
@@ -102,7 +100,7 @@ share-links-active:
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "NGGW519.github.io"
 
 # Add the website title to the title of every page
 title-on-all-pages: true
