@@ -20,15 +20,18 @@ author: NGGW519
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Projects:
-    - "7th KDT Hackathon": "https://github.com/NGGW519/7th-kDT-HACKATHON"
-    - "SKN13 Final Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-FINAL-1TEAM"
-    - "SKN13 4th Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-4th-1TEAM"
-    - "SKN13 3rd Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-3rd-1TEAM"
-    - "SKN13 2nd Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-2nd-7Team"
-    - "SKN13 1st Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-1st-2Team"
-  Retrospective: "retrospective"
+  소개: "aboutme"
+  프로젝트:
+    - "🥇 7th KDT Hackathon": "https://github.com/NGGW519/7th-kDT-HACKATHON"
+    - "🎯 SKN13 Final Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-FINAL-1TEAM"
+    - "📚 SKN13 4th Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-4th-1TEAM"
+    - "🚀 SKN13 3rd Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-3rd-1TEAM"
+    - "💡 SKN13 2nd Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-2nd-7Team"
+    - "🌟 SKN13 1st Project": "https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN13-1st-2Team"
+  회고록: "retrospective"
+  Language:
+    - "🇰🇷 한국어": "/"
+    - "🇺🇸 English": "/en/"
 
 ################
 # --- Logo --- #
@@ -54,8 +57,10 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
+  email: "srrd1357@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
   github: NGGW519
+  instagram: goooooong
 #  medium: yourname
 #  reddit: yourname or r/yoursubreddit
 #  linkedin: daattali
@@ -93,8 +98,8 @@ rss-description: AI Developer & Backend Engineer sharing insights on cutting-edg
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
-  linkedin: true
+  facebook: false
+  linkedin: false
   vk: false
   reddit: false
 
@@ -133,18 +138,19 @@ navbar-var-length: false
 ######################################
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
+# Dark theme with main color #7E84F7
 
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+page-col: "#0D1117"
+text-col: "#E6EDF3"
+link-col: "#7E84F7"
+hover-col: "#9BA0FF"
+navbar-col: "#161B22"
+navbar-text-col: "#E6EDF3"
+navbar-border-col: "#30363D"
+footer-col: "#161B22"
+footer-text-col: "#8B949E"
+footer-link-col: "#E6EDF3"
+footer-hover-col: "#7E84F7"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -207,11 +213,11 @@ footer-hover-col: "#0085A1"
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
 # (3) Install the Utterances app in your repository https://github.com/apps/utterances
 # See more details about the parameters below at https://utteranc.es/
-#utterances:
-#  repository: # GitHub username/repository eg. "daattali/beautiful-jekyll"
-#  issue-term: title   # Mapping between blog posts and GitHub issues
-#  theme: github-light # Utterances theme
-#  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
+utterances:
+  repository: NGGW519/NGGW519.github.io # GitHub username/repository eg. "daattali/beautiful-jekyll"
+  issue-term: title   # Mapping between blog posts and GitHub issues
+  theme: github-dark # Utterances theme (dark theme to match our design)
+  label: blog-comments # Label that will be assigned to GitHub Issues created by Utterances
 
 # To use Staticman comments, uncomment the following section. You may leave the reCaptcha
 # section commented if you aren't using reCaptcha for spam protection.
@@ -248,7 +254,7 @@ footer-hover-col: "#0085A1"
 ################
 
 # Ruby Date Format to show dates of posts
-date_format: "%B %-d, %Y"
+date_format: "%Y년 %m월 %d일"
 
 # Facebook App ID
 #fb_app_id: ""
@@ -258,7 +264,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
