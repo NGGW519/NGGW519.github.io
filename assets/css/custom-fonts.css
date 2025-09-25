@@ -1,0 +1,103 @@
+/* Korean Font Optimization */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css');
+
+/* Font Stack for Korean and English */
+body, html {
+  font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif !important;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+}
+
+/* Headings Font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Pretendard', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Navigation Font */
+.navbar-nav .nav-link {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif !important;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* Code Font - Monospace for code blocks */
+code, pre, .highlight {
+  font-family: 'D2Coding', 'Fira Code', 'JetBrains Mono', 'Consolas', 'Monaco', monospace !important;
+}
+
+/* Button Font */
+.btn {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif !important;
+  font-weight: 500;
+}
+
+/* Footer Font */
+.footer {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif !important;
+  font-weight: 400;
+}
+
+/* Tech Badge Font Enhancement */
+.tech-badge {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif !important;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+/* Project Card Font */
+.project-card h3 {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif !important;
+  font-weight: 600;
+}
+
+.project-card p {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif !important;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Intro Section Font */
+.intro-section h2 {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif !important;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.intro-section p {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif !important;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Blog Post Content */
+.post-content, .page-content {
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif !important;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: -0.01em;
+}
+
+/* Improve readability for Korean text */
+p, li, td, th {
+  word-break: keep-all;
+  word-wrap: break-word;
+}
+
+/* Font size adjustments for better Korean readability */
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  h1 { font-size: 1.8rem; }
+  h2 { font-size: 1.6rem; }
+  h3 { font-size: 1.4rem; }
+}
